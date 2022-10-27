@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import DataUtilization from "./ppt/DataUtilization/DataUtilization";
+import FirstPage from "./ppt/FirstPage/FirstPage";
+import HumanitiesEnvironment from "./ppt/HumanitiesEnvironment/HumanitiesEnvironment";
+import NaturalEnvironment from "./ppt/NaturalEnvironment/NaturalEnvironment";
+import OneSentense from "./ppt/OneSentense/OneSentense";
+import RecommandTravelCourse from "./ppt/RecommandTravelCourse/RecommandTravelCourse";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FirstPage />
+      <OneSentense />
+      <NaturalEnvironment />
+      <HumanitiesEnvironment />
+      <RecommandTravelCourse />
+      <DataUtilization />
     </div>
   );
 }

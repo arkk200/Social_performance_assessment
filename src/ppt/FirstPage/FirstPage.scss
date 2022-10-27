@@ -1,0 +1,29 @@
+.first-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+
+    > h1.big-title {
+        font-size: 100px;
+        font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+        font-weight: 600;
+        > span {
+            position: relative;
+            color: rgba(231, 160, 98, 0.944);
+            &:nth-child(2) {
+                right: 50px;
+                color: rgba(221, 128, 46, 0.944);
+            }
+            &:nth-child(3) {
+                right: 100px;
+                color: rgba(190, 101, 22, 0.944);
+            }
+            &:nth-child(4) {
+                right: 150px;
+                color: rgba(130, 64, 7, 0.944);
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.nat-env {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+
+    .nat-env-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+
+        > li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            > h1 {
+                font-size: 50px;
+            }
+            > img {
+                width: 500px;
+            }
+        }
+    }
+}

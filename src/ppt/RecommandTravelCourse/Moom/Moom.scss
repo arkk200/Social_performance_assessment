@@ -1,0 +1,35 @@
+.moom {
+    > ul {
+        > li {
+            &:nth-child(odd) {
+                background-color: rgba(241, 224, 209, 0.944);
+            }
+            &:nth-child(even) {
+                background-color: rgba(233, 199, 170, 0.944);
+            }
+            &:nth-child(1) {
+                > div {
+                    display: flex;
+                    > img {
+                        height: 500px;
+                    }
+                }
+            }
+            &:nth-child(2) {
+                > img {
+                    height: 400px;
+                }
+            }
+            &:nth-child(3) {
+                > div:nth-child(2) {
+                    display: flex;
+                    > img {
+                        height: 400px;
+                    }
+                }
+                font-size: 40px;
+                font-weight: 600;
+            }
+        }
+    }
+}

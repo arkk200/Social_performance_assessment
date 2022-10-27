@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Social_performance_assessment/static/css/main.3fe34df9.css",
+    "main.js": "/Social_performance_assessment/static/js/main.e8fce509.js",
+    "index.html": "/Social_performance_assessment/index.html",
+    "main.3fe34df9.css.map": "/Social_performance_assessment/static/css/main.3fe34df9.css.map",
+    "main.e8fce509.js.map": "/Social_performance_assessment/static/js/main.e8fce509.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fe34df9.css",
+    "static/js/main.e8fce509.js"
+  ]
+}
